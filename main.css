@@ -1,0 +1,44 @@
+#right {
+  float: right;
+}
+
+#project-wrapper {
+  position: relative;
+  height: 100%;
+  margin-top: 50px;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  padding-top: 50px;
+}
+
+.banner {
+  height: 500px;
+  background: url(banner.jpg) center center;
+  background-size: cover;
+  overflow: hidden; }
+  .banner .bg {
+    max-width: 900px; }
+  .banner .over {
+    position: absolute;
+    top: 25%;
+    text-align: center !important;
+    width: 100%; }
+    .banner .over h1 {
+      color: #fff;
+      font-weight: 400;
+      margin-top: 30px !important; }
+
+.square_image {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  overflow: hidden; }
+  .square_image.s2 {
+    border-color: #ee8484; }
+  .square_image img {
+    max-width: 100%; }
